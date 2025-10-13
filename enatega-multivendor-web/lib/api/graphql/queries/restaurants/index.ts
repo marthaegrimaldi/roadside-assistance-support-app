@@ -198,6 +198,7 @@ export const GET_REVIEWS_BY_RESTAURANT = gql`
         _id
         rating
         description
+        comments
         isActive
         createdAt
         updatedAt
